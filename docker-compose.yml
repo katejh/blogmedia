@@ -27,7 +27,7 @@ services:
     links:
       - db
     env_file:
-      .env
+      ./app/.env
 
   web:
     container_name: blogmedia-web

@@ -16,7 +16,7 @@ Pull this repository.
 
 In the root of this project, run `python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt`. Then, every time you are working on this project, run `source venv/bin/activate`. (Note: I recommend you use the venv instead of Docker when you have to do things like `python manage.py startapp app-name`).
 
-Create a `.env` file and fill with the relevant environment variables (see the `.env.template` file).
+Create a `.env` file inside the `app/` directory and fill with the relevant environment variables (see the `.env.template` file).
 
 To create a `DJANGO_SECRET_KEY`, run inside a Python shell:
 
